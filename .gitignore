@@ -1,0 +1,7 @@
+node_modules/
+*.log
+.xlsx
+.docx
+.pdf
+.jpg
+.png
