@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cálculo de IMC</title>
+
+    <link rel="stylesheet" href="/UDEMY_TYPE_JS/exercicios/tabela_IMC/assets/css/style.css">
+
+</head>
+
+<body>
+
+    <section class="container">
+        <div>
+            <table>
+                <thead>
+                    <h1>Tabela IMC</h1>
+                    <tr>
+                        <th class="celula">IMC</th>
+                        <th class="celula">Resultado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="celula">Menor do que 18,5</td>
+                        <td class="celula">Abaixo do Peso</td>
+                    </tr>
+                    <tr>
+                        <td class="celula">Entre 18,5 e 24,9</td>
+                        <td class="celula">Peso Normal</td>
+                    </tr>
+                    <tr>
+                        <td class="celula">Entre 25 e 29,9</td>
+                        <td class="celula">Sobrepeso</td>
+                    </tr>
+                    <tr>
+                        <td class="celula">Entre 30 e 34,9</td>
+                        <td class="celula">Obesidade Grau 1</td>
+                    </tr>
+                    <tr>
+                        <td class="celula">Entre 35 e 39,9</td>
+                        <td class="celula">Obesidade Grau 2</td>
+                    </tr>
+                    <tr>
+                        <td class="celula">Mais do que 40</td>
+                        <td class="celula">Obesidade Grau 3</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+        </div>
+        <div>
+            <h2>Calcule seu IMC</h2>
+
+
+            <form action="/" id="formulario" method="POST">
+
+                <p>
+                    <label for="peso">Peso:</label><br>
+                    <input type="text" min="3" max="300" step="0.5" id="peso" name="peso">
+                </p>
+                <p>
+                    <label for="altura">Altura:</label><br>
+                    <input type="text" min="0.4" step="0.01" max="3" id="altura" name="altura">
+                </p>
+                <p>
+                    <button type="submit">Calcular</button>
+                </p>
+            </form>
+        </div>
+
+        <div id="resultado"></div>
+    </section>
+    <script src="/UDEMY_TYPE_JS/exercicios/tabela_IMC/assets/js/main.js"></script>
+
+</body>
+
+</html>

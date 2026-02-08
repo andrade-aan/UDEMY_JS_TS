@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula sobre Formulários</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        label {
+
+            cursor: pointer;
+        }
+
+        p {
+            padding: 10px 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <form action="#" method="get" target="_blank">
+        <section>
+            <h1>Dados de Cadastro</h1>
+            <p>Formulário</p>
+
+            <fieldset>
+                <legend>Descrição</legend>
+                <p>
+                    <input label="Nome:" type="text">
+                </p>
+
+            </fieldset>
+        </section>
+    </form action="#" method="push" target="_blank">
+
+    <form>
+        <p>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="primeiro nome">
+        </p>
+        <p> Sobre Você:<br>
+            <label for="dev">Sou Desenvolvedor?</label>
+            <input type="checkbox" id="dev" name="dev" value="sim"> <br>
+            <label for="patriota">Sou Patriota?</label>
+            <input type="checkbox" id="patriota" name="patriota" value="sim"><br>
+            <label for="brasileiro">Sou Brasileiro?</label>
+            <input type="checkbox" id="brasileiro" name="brasileiro" value="sim">
+        </p>
+        <p>
+            Seu Gênero:<br>
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="masculino" name="genero" value="masculino"><br>
+            <label for="feminino">Feminino</label>
+            <input type="radio" id="feminino" name="genero" value="feminino"><br>
+            <label for="indeciso">Não sabe?</label>
+            <input type="radio" id="indeciso" name="genero" value="indeciso">
+
+        </p>
+        <p>
+            <label for="date">Data de Nascimento:</label>
+            <input type="date" id="date" name="date">
+        </p>
+
+        <p>
+            <label for="datetime">Data e Hora:</label>
+            <input type="datetime-local" id="datetime" name="datetime">
+        </p>
+
+        <p>
+            <label for="time">Hora Local:</label>
+            <input type="time" id="time" name="time" value="00:00:01">
+        </p>
+
+        <p>
+            <label for="cor">Cor:</label>
+            <input type="color" id="cor" name="cor" value="#">
+        </p>
+        <p>
+            <label for="toemail">e-mail</label>
+            <input type="email" name="email" id="toemail" placeholder="seu@email.com">
+        </p>
+
+        <p>
+            <label for="arquivo">Enviar Arquivo:</label>
+            <input type="file" id="arquivo" name="file" accept=".jpg,.png,.pdf,.docx, image/*" multiple>
+        </p>
+        <p>
+            <label for="number">Valor em R$</label>
+            <input type="number" id="number" name="namber" placeholder="0,00" min="0" max="1000000" step="1000">
+        </p>
+
+        <p>
+            <label for="senha"></label>
+            <input type="password" name="password" id="senha" placeholder="senha">
+        </p>
+
+        <p>
+            <button type="reset">Limpar</button>
+            <button type="submit">Enviar</button>
+        </p>
+    </form>
+
+</body>
+
+</html>

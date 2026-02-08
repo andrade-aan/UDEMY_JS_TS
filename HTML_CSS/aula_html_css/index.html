@@ -1,0 +1,107 @@
+<!DOCTYPE html> <!--HTML é Case insensitive-->
+<html lang="pt-BR"> <!--lang é atributo da tag-->
+<style>
+   
+    .enfase {
+        background: rgb(48, 14, 80);
+    }
+
+    .imagem {
+        background-image: url('/UDEMY_TYPE_JS/HTML_CSS/aula_html_css/img/background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+
+    .enfase-link {
+        color: azure;
+        background: rgb(154, 1, 1);
+    }
+
+    .texto {
+        background: none;
+    }
+
+    .para-um {
+        background: none;
+        color: rgb(0, 255, 242);
+        font-size: x-large;
+    }
+</style>
+
+<head> <!--a tag head comporta os metadados do arquivo html-->
+    <meta charset="UTF-8"> <!--tag sem corpo-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--viewpoert foi introduzida pela Apple para dispositívos móveis
+    fazendo com que as páginas se adequem à tela do aparelho celular-->
+    <title>Página de Teste</title>
+</head>
+
+<body class="imagem">
+    <!--id="unico-dentro-do-arquivo-pagina"
+        class="pode-ser-repetida"-->
+
+    <p class="para-um">
+        <b class="enfase">A tag &lt b &gt é para negrito propriamente</b>,
+        já a tag &lt strong &gt é usada de forma semântica, para leitura do texto via audio por deficientes visuais
+        apenas escutam a força da voz na <strong class="texto" style="background: rgb(48, 14, 80);">leitura automática
+            do texto</strong>
+    </p>
+    <hr>
+    <p class="para-um texto">
+        Semelhante são as tags &lt i &gt de itálico e &lt em &gt de ênfase, visualmente são idênticas,
+        contudo o interpretador identifica a tag &lt em &gt como de <em class="enfase">leituuuuuura enfáaaaaatica</em>
+        ipsum dolor sit amet consectetur adipisicing elit.
+        Dolorem voluptatibus, magni consectetur dolores deleniti debitis,
+        ea voluptates ducimus veniam, laudantium est animi excepturi
+        rem eaque libero magnam consequuntur! Obcaecati, quia.
+    </p>
+    <hr>
+    <p class="para-um texto">
+        Para a colocação de links se utiliza a tag &lt a href="link" &gt, a de âncora
+        <a class="enfase-link" href="https://www.w3schools.com/tags/tag_a.asp" target="_blank">Tag a no HTML</a><br>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/MDN_Web_Docs_logo.svg/1280px-MDN_Web_Docs_logo.svg.png?20220301183245"
+            width="50%">
+    </p>
+    <hr>
+    <p class="para-um texto">
+        <u class="enfase">Sublinhado</u> se usa a tag &lt u &gt<br>
+        Para colocar palavras <small class="enfase">menores</small> &lt small &gt<br>
+        Para potências por exemplo a tag &lt sup &gt ==> 2<sup class="texto">5</sup><br>
+        Para molécula de água &lt sub &gt ==> H<sub class="texto">2</sub>O<br>
+        Para citar com aspas duplas &lt q &gt: <q class="enfase">O rato roeu a roupa</q>
+        Para códidos tag &lt code &gt como <code class="enfase">console.log(`linha de código ${truta}`</code>
+    </p>
+    <hr>
+    <p class="para-um">
+        Para se fazer um bloco como citação &lt blockquote &gt, fora da tag &lt p &gt
+    </p>
+    <blockquote class="para-um">
+        <sup class="texto">1 </sup>Bem-aventurados os retos em seus caminhos, que andam na lei do Senhor.<br>
+        <sup class="texto">2 </sup>Bem-aventurados os que guardam os seus testemunhos, e que o buscam com todo o
+        coração.<br>
+        <sup class="texto">3 </sup> E não praticam iniquidade, mas andam nos seus caminhos.<br>
+        <sup class="texto">4 </sup> Tu ordenaste os teus mandamentos, para que diligentemente os observássemos.<br>
+        <sup class="texto">5 </sup> Quem dera que os meus caminhos fossem dirigidos a observar os teus mandamentos.<br>
+        <sup class="texto">6 </sup> Então não ficaria confundido, atentando eu para todos os teus mandamentos.<br>
+        <sup class="texto">7 </sup> Louvar-te-ei com retidão de coração quando tiver aprendido os teus justos
+        juízos.<br>
+        <sup class="texto">8 </sup> Observarei os teus estatutos; não me desampares totalmente.<br>
+        <sup class="texto">9</sup> Com que purificará o jovem o seu caminho? Observando-o conforme a tua palavra.<br>
+        <sup class="texto">10</sup> Com todo o meu coração te busquei; não me deixes desviar dos teus mandamentos. <br>
+
+        Salmos 119:1-10
+    </blockquote>
+
+    <p class="texto para-um">
+        As tags &lt span &gt e &lt div &gt representam containers da marcação HTML<br>
+        Podemos marcar com &lt span &gt <span style="color:rgb(2, 61, 109); background:brown; font-size:xx-large"> um
+            texto para colorir com uso de style</span><br>
+        É uma tag <u class="enfase">inline</u>, sem quebras e distorções de parâgrafo
+    </p>
+    <div class="para-um">A tag &lt div &gt é <u class="enfase">Display-Block</u>, criando um bloco por padrão no HTML
+
+</body>
+
+</html>

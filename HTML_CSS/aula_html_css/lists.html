@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Aula de Listas HTML</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            display:flex;
+            justify-content: center;
+            flex-direction:row-reverse; /*direção do flex*/
+            align-items: center; /*alinha os itens no centro*/
+            
+            background-color:rgba(0,0,0,.75);
+        }
+        nav ul li a {
+            color:#ffffff;
+            text-decoration:none;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color:red;
+            padding: 10px 20px;
+            display: block;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            background-color:rgba(0,0,0,0.05);
+
+        }
+
+        nav ul {
+            display: flex;
+            list-style-type: none;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <nav>
+<ul>
+    <li><a href="#" target="_blank">Home</a></li>
+    <li><a href="#" target="_blank">About</a></li>
+    <li><a href="#" target="_blank">Products</a></li>
+</ul>
+    </nav>
+
+    <ul> <!--unordered list <ul>-->
+        <li>Item Alfa</li> <!--list item <li>-->
+        <li>Item Beta</li>
+        <li>Item 3</li>
+    </ul>
+
+    <ol type="a" start="4">
+        <li>Item Alfa</li>
+        <li>Item Beta</li>
+    </ol>
+
+    <dl> <!--description list <dl>-->
+        <dt>Item Alfa</dt>
+        <dd>Coffee Drink</dd>
+        <dt>Item Beta</dt>
+        <dd>Milk Drink</dd>
+    </dl>
+</body>
+
+</html>

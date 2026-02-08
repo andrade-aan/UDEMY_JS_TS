@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+
+
+:root {
+    --primary-color-background: rgba(8, 98, 117, 0.299);
+    --primary-color-divisao-um: rgba(255, 228, 196, 0.674);
+
+}
+
+body {
+    background-color: var(--primary-color-background);
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .divisao-um {
+    margin-top: 150px;
+    justify-content:center;
+    padding: 10px;
+    max-width:70%;
+    background-color: var(--primary-color-divisao-um);
+    border-radius: 10px;
+}
+
+.divisao-dois {
+    margin-top: 30px;
+    display:inline-block ;
+    align-content: center;
+    max-width:70%;
+    background-color: var(--primary-color-divisao-um);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.divisao-tres {
+    margin-top: 30px;
+    display:inline-block ;
+    align-content: center;
+    max-width:70%;
+    background-color: var(--primary-color-divisao-um);
+    padding: 10px;
+    border-radius: 10px;
+}
