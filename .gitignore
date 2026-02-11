@@ -5,3 +5,5 @@ node_modules/
 .pdf
 .jpg
 .png
+.code-workspace
+netflix/
